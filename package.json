@@ -1,5 +1,5 @@
 {
-  "name": "@blackbox-vision/react-slot-fill",
+  "name": "@frat/react-slot-fill",
   "version": "1.5.2",
   "private": false,
   "description": "React Slot and Fill implementation made with React.createContext API",
@@ -66,14 +66,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BlackBoxVision/react-slot-fill.git"
+    "url": "git+https://github.com/ratson/react-slot-fill.git"
   },
   "author": "Jonatan E. Salas <jonatan.salas@blackbox-vision.tech>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BlackBoxVision/react-slot-fill/issues"
+    "url": "https://github.com/ratson/react-slot-fill/issues"
   },
-  "homepage": "https://github.com/BlackBoxVision/react-slot-fill#readme",
+  "homepage": "https://github.com/ratson/react-slot-fill#readme",
   "peerDependencies": {
     "react": "^16.3.1"
   },
