@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { Fill, Provider, Slot } from '../src'
+import { Fill, Slot } from '../src'
 
 storiesOf('Slot-Fill', module).add('Slot-Fill Demo', () => (
   <div
@@ -12,7 +12,7 @@ storiesOf('Slot-Fill', module).add('Slot-Fill Demo', () => (
       justifyContent: 'center',
     }}
   >
-    <Provider>
+    <React.Fragment>
       <Slot name="red-box" />
       <Fill name="red-box">
         <div
@@ -45,6 +45,6 @@ storiesOf('Slot-Fill', module).add('Slot-Fill Demo', () => (
         </div>
       </Fill>
       <Slot name="green-box" />
-    </Provider>
+    </React.Fragment>
   </div>
 ))
