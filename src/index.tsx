@@ -1,3 +1,3 @@
-export { default as Fill } from './components/Fill';
-export { default as Slot } from './components/Slot';
-export { default as Provider } from './components/Provider';
+export { default as Fill } from './Fill'
+export { default as Provider } from './Provider'
+export { default as Slot } from './Slot'

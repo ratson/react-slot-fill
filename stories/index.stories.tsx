@@ -1,6 +1,6 @@
-import { storiesOf } from '@storybook/react';
-import React from 'react';
-import { Fill, Provider, Slot } from '../src';
+import { storiesOf } from '@storybook/react'
+import React from 'react'
+import { Fill, Provider, Slot } from '../src'
 
 storiesOf('Slot-Fill', module).add('Slot-Fill Demo', () => (
   <div
@@ -47,4 +47,4 @@ storiesOf('Slot-Fill', module).add('Slot-Fill Demo', () => (
       <Slot name="green-box" />
     </Provider>
   </div>
-));
+))

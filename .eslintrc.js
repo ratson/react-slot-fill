@@ -10,5 +10,6 @@ module.exports = {
     'no-var': 'error',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    semi: ['error', 'never'],
   },
-};
+}
