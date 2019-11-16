@@ -28,11 +28,6 @@ const Slot: React.FC<SlotProps> = ({ name, ...props }) => {
     }
   }, [ctx, name, slotIndex, count, forceUpdate])
 
-  if (!name) {
-    console.warn(`Slot: You forget to pass id to <Slot>`)
-    return null
-  }
-
   const renderCallback = ctx.getFillForSlot(name)
   const children = renderCallback()
 
