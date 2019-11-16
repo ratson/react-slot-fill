@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can fill after slot 1`] = `
+<div>
+  <span>
+    filled 2
+  </span>
+</div>
+`;
+
+exports[`can fill before slot 1`] = `
+<div>
+  <span>
+    filled
+  </span>
+</div>
+`;
