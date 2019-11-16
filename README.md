@@ -9,13 +9,13 @@ You can install this library via NPM or YARN.
 ### NPM
 
 ```bash
-npm i @blackbox-vision/react-slot-fill
+npm i @frat/react-slot-fill
 ```
 
 ### YARN
 
 ```bash
-yarn add @blackbox-vision/react-slot-fill
+yarn add @frat/react-slot-fill
 ```
 
 ## Use case
@@ -33,49 +33,49 @@ The usage is really simple:
 
 ```javascript
 // Toolbar.js
-import React from 'react';
-import { Slot, Fill } from '@blackbox-vision/react-slot-fill';
+import React from 'react'
+import { Slot, Fill } from '@frat/react-slot-fill'
 
 const Toolbar = props => (
   <div>
     <Slot name="Toolbar.Item" />
   </div>
-);
+)
 
-export default Toolbar;
+export default Toolbar
 
 Toolbar.Item = props => (
   <Fill name="Toolbar.Item">
     <button>{props.label}</button>
   </Fill>
-);
+)
 ```
 
 ```javascript
 // Feature.js
-import React from 'react';
-import Toolbar from './Toolbar';
+import React from 'react'
+import Toolbar from './Toolbar'
 
-const Feature = () => <Toolbar.Item label="My Feature!" />;
+const Feature = () => <Toolbar.Item label="My Feature!" />
 ```
 
 ```javascript
 // App.js
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from '@blackbox-vision/react-slot-fill';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Provider } from '@frat/react-slot-fill'
 
-import Toolbar from './Toolbar';
-import Feature from './Feature';
+import Toolbar from './Toolbar'
+import Feature from './Feature'
 
 const App = () => (
   <Provider>
     <Toolbar />
     <Feature />
   </Provider>
-);
+)
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'))
 ```
 
 ## Props
