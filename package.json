@@ -14,7 +14,8 @@
     "start": "run-s storybook",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages",
+    "version": "run-s build"
   },
   "@pika/pack": {
     "pipeline": [
