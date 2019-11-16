@@ -13,10 +13,6 @@ const Slot: React.FC<SlotProps> = ({ name, ...props }) => {
 
   React.useEffect(() => {
     ctx.subscribe(name, (slotIndexNew: number) => {
-      console.warn(
-        `Slot: Calling suscribe for slotIndex ${slotIndexNew}, where name is ${name}`
-      )
-
       setSlotIndex(slotIndexNew)
       forceUpdate()
     })
